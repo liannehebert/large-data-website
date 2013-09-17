@@ -1,23 +1,23 @@
 #Mammals of South America
 
--Home
+- Home
 
--Mammals of South America
-	-Monkeys
-	-Water Dwellers
-	-Small Mammals
-		-Rodents
-		-Bats
-	-Felines
-	-Canines
-	-Pigs/Boars
-	-Bears
-	-Camels
+- Mammals of South America
+	- Monkeys
+	- Water Dwellers
+	- Small Mammals
+		- Rodents
+		- Bats
+	- Felines
+	- Canines
+	- Pigs/Boars
+	- Bears
+	- Camels
 
--Dangerous Mammals
+- Dangerous Mammals
 
--Endangered Species
+- Endangered Species
 
--Recent Discoveries
+- Recent Discoveries
 
--Eco-volounteering
+- Eco-volounteering
