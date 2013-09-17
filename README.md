@@ -41,8 +41,8 @@ The website is targeted towards people who are passionate about wildlife, specif
 ### To-do
 
 - [x] Research
-- [ ] Content organization
-- [ ] Tasks & priorities
+- [x] Content organization
+- [x] Tasks & priorities
 - [ ] Prototype
 - [ ] Style exploration
 - [ ] Writing exploration
