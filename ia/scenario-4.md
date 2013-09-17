@@ -1,5 +1,5 @@
 # Scenario
 
 **I am a…** grade 6 teacher
-**I want to…** have a good resource with enough profile information on different animals
-**So I can…** have my students write informative speeches using the information on this website.
+**I want to…** find information on endangered species, and information on how to help wildlife
+**So I can…** have my students write essays on endangered species and how we can help: to encourage awareness of wildlife issues.

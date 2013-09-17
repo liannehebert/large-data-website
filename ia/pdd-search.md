@@ -3,8 +3,7 @@
 ## 1. High
 
 - Search
-- Results: page names
-- Results: photos
+- Results: page names and photo
 
 
 ## 2. Medium
