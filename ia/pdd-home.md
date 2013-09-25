@@ -2,7 +2,7 @@
 
 ## 1. High
 
-- Link to animal profiles
+- Buckets with animal photos; links to profile
 - Spotlight strange and endagered animals
 - Search
 
