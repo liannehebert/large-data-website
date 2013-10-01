@@ -43,8 +43,8 @@ The website is targeted towards people who are passionate about wildlife, specif
 - [x] Research
 - [x] Content organization
 - [x] Tasks & priorities
-- [ ] Prototype
-- [ ] Style exploration
+- [x] Prototype
+- [x] Style exploration
 - [ ] Writing exploration
 - [ ] Component guide
 - [ ] Homepage design
