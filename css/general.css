@@ -1,0 +1,171 @@
+html{
+	background-color:#FFF6C1;
+}
+
+h1{
+	font-size:2em;
+	font-family:"ITC Stone Sans",helvetica,sans-serif;
+}
+
+.searchbar {
+	float: right;
+}
+
+article{
+	padding:0 1em 0 1em;
+}
+
+p{
+	font-size:1em;
+}
+
+.intro{
+	width:90%;
+	font-size:1.2em;
+}
+
+
+
+
+.bucket-row{
+	width:100%;
+	overflow:hidden;
+}
+
+.bucket{
+	width:75%;
+	margin:0;
+	float:left;
+}
+
+.buckets img{
+	width:25%;
+	}
+	
+.flex-img{
+	display:block;
+	width:100%;
+}
+
+.unit-spacer{
+	padding:.3em;
+}
+
+
+
+
+
+@media only screen and (min-width: 33em){
+	
+html{
+	background-color:#FFF6C1;
+}
+
+h1{
+	font-size:2.5em;
+	font-family:"ITC Stone Sans",helvetica,sans-serif;
+}
+
+.searchbar {
+	float: right;
+}
+
+article{
+	padding:0 2em 0 2em;
+}
+
+p{
+	font-size:1.3em;
+}
+
+.intro{
+	width:50%;
+}
+
+
+
+
+.bucket-row{
+	width:100%;
+	overflow:hidden;
+}
+
+.bucket{
+	width:33%;
+	margin:0;
+	float:left;
+}
+
+.buckets img{
+	width:25%;
+	}
+	
+.flex-img{
+	display:block;
+	width:100%;
+}
+
+.unit-spacer{
+	padding:.7em;
+}
+
+	
+}
+
+
+@media only screen and (min-width: 50em){
+
+html{
+	background-color:#FFF6C1;
+}
+
+h1{
+	font-size:2.5em;
+	font-family:"ITC Stone Sans",helvetica,sans-serif;
+}
+
+.searchbar {
+	float: right;
+}
+
+article{
+	padding:0 10em 0 10em;
+}
+
+p{
+	font-size:1.3em;
+}
+
+.intro{
+	width:50%;
+}
+
+
+
+
+.bucket-row{
+	width:100%;
+	overflow:hidden;
+	padding-top: 10em;
+}
+
+.bucket{
+	width:33%;
+	margin:0;
+	float:left;
+}
+
+.buckets img{
+	width:25%;
+	}
+	
+.flex-img{
+	display:block;
+	width:100%;
+}
+
+.unit-spacer{
+	padding:.7em;
+}
+	
+}
