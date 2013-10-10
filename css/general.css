@@ -86,12 +86,18 @@ h1{
 	font-family:"ITC Stone Sans",helvetica,sans-serif;
 }
 
+header{
+	overflow:hidden;
+}
+
 .searchbar {
 	float: right;
 }
 
 article{
-	padding:0 1em 0 1em;
+	padding:0 .5em 0 .5em;
+	margin:0;
+	overflow:hidden;
 }
 
 p{
@@ -99,31 +105,21 @@ p{
 }
 
 .intro{
-	width:90%;
+	width:100%;
 	font-size:1.2em;
 }
 
 
 
-
-.bucket-row{
-	width:100%;
-	overflow:hidden;
-}
-
-.bucket{
-	width:75%;
-	margin:0;
-	float:left;
-}
-
-.buckets img{
-	width:25%;
-	}
-	
 .flex-img{
 	display:block;
 	width:100%;
+}
+
+.bucket{
+	width:100%;
+	margin:0;
+	float:left;
 }
 
 .unit-spacer{
@@ -139,117 +135,88 @@ p{
 
 
 
-@media only screen and (min-width: 33em){
+@media only screen and (min-width: 31em){
 	
-html{
-	background-color:#FFF6C1;
-}
-
-h1{
-	font-size:2.5em;
-	font-family:"ITC Stone Sans",helvetica,sans-serif;
-}
-
-.searchbar {
-	float: right;
-}
-
 article{
-	padding:0 2em 0 2em;
+	padding:0 1em 0 1em;
 }
 
 p{
-	font-size:1.3em;
+	font-size:1.1em;
 }
 
 .intro{
-	width:50%;
-}
-
-
-
-
-.bucket-row{
 	width:100%;
-	overflow:hidden;
 }
+
+
+
+.bucket{
+	width:75%;
+}
+	
+}
+
+
+@media only screen and (min-width: 49em){
+
+article{
+	padding:0 3em 0 3em;
+}
+
+p{
+	font-size:1.2em;
+}
+
+.intro{
+	width:85%;
+}
+
+
 
 .bucket{
 	width:33%;
 	margin:0;
+	padding-top: 5em;
 	float:left;
 }
 
-.buckets img{
-	width:25%;
-	}
-	
-.flex-img{
-	display:block;
-	width:100%;
+.unit-spacer{
+	padding:.4em;
 }
+	
+}
+
+@media only screen and (min-width: 80em){
 
 .unit-spacer{
-	padding:.7em;
-}
-
-	
-}
-
-
-@media only screen and (min-width: 50em){
-
-html{
-	background-color:#FFF6C1;
-}
-
-h1{
-	font-size:2.5em;
-	font-family:"ITC Stone Sans",helvetica,sans-serif;
-}
-
-.searchbar {
-	float: right;
+	padding:.8em;
 }
 
 article{
-	padding:0 10em 0 10em;
+	padding: 0 10em;
 }
 
-p{
-	font-size:1.3em;
+}
+
+@media only screen and (min-width: 95em){
+
+.intro{
+	width:60%;
+}
+
+}
+
+
+@media only screen and (min-width: 125em){
+
+h1{
+	font-size:3.5em;
 }
 
 .intro{
-	width:50%;
+	font-size: 1.7em;
 }
 
 
-
-
-.bucket-row{
-	width:100%;
-	overflow:hidden;
-	padding-top: 15em;
-}
-
-.bucket{
-	width:33%;
-	margin:0;
-	float:left;
-}
-
-.buckets img{
-	width:25%;
-	}
-	
-.flex-img{
-	display:block;
-	width:100%;
-}
-
-.unit-spacer{
-	padding:.7em;
-}
-	
 }
