@@ -60,13 +60,13 @@ nav ul li:hover a {
 nav ul li a {
 	display: block; 
 	padding: 25px 40px;
-	color: #757575; 
+	color: #66492E; 
 	text-decoration: none;
 }
 	
 nav ul ul {
-	background: #C42DB7; 
-	border-radius: 0px; 
+	background: #E99803; 
+	border-radius: 10px; 
 	padding: 0;
 	position: absolute; 
 	top: 100%;
@@ -74,8 +74,7 @@ nav ul ul {
 	
 nav ul ul li {
 	float: none; 
-	border-top: 1px solid #6b727c;
-	border-bottom: 1px solid #575f6a;
+	border-top: 1px solid #825E3C;
 	position: relative;
 }
 
@@ -85,11 +84,13 @@ nav ul ul li a {
 }	
 
 nav ul ul li a:hover {
-	background: #4b545f;
+	background: #85B254;
 }
 
 nav ul ul ul {
-	position: absolute; left: 100%; top:0;
+	position: absolute; 
+	left: 100%; 
+	top:0;
 }
 	
 /*End of Navigation styling*/
