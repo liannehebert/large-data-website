@@ -98,6 +98,7 @@ nav ul ul ul {
 h1{
 	font-size:2em;
 	font-family:"ITC Stone Sans",helvetica,sans-serif;
+	color:#66492E;
 }
 /*
 .searchbar {
@@ -113,6 +114,7 @@ article{
 
 p{
 	font-size:1em;
+	color:#66492E;
 }
 
 .intro{
@@ -140,6 +142,7 @@ p{
 .bucket-caption{
 	font-size:1em;
 	margin:0;
+	color:#66492E;
 }
 
 .unit-s-1{
