@@ -1,0 +1,3 @@
+#Style Report
+
+The first style tile is very bright and geared towards the younger users. However, the colours feel too agressive for a website with extensive information. The colour palette in the element collage is softer and more pleasing. However, the navigation will need to look less static/outdated for younger users to feel engaged. The type guide's colour palette is also pleasing, and the text is clean and uncluttered. Having some sort of information card on each page will be essential for keeping the interest of users who are not looking for in-depth information.
