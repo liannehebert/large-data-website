@@ -100,6 +100,11 @@ h1{
 	font-family:"ITC Stone Sans",helvetica,sans-serif;
 	color:#66492E;
 }
+
+h3{
+	font-family:"ITC Stone Sans",helvetica,sans-serif;
+	color:#66492E;
+}
 /*
 .searchbar {
 	float: right;
@@ -112,7 +117,8 @@ article{
 	overflow:hidden;
 }
 
-p{
+p, li{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size:1em;
 	color:#66492E;
 }
@@ -176,12 +182,21 @@ p{
 .info{
 	list-style-type:none;
 	margin:0;
-	padding:0.5em;
+	padding:2em;
 	background-color:#A4C777;
 }
 
-.info:click{
-	display:inline-block;
+ul{
+	list-style-type:none;
+	margin:0;
+}
+
+.classification{
+	float:right;
+	background-color:#F8D130;
+	padding:1.5em 3em 1.5em 1.5em;
+	border-radius:10px;
+	border:10px solid #5D4820;
 }
 
 @media only screen and (min-width: 34em){
