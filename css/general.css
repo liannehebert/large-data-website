@@ -180,11 +180,11 @@ p, li{
 
 
 .info{
+	display:none;
 	list-style-type:none;
 	margin:0;
 	padding:2em;
 	background-color:#A4C777;
-	display:inline-block;
 }
 
 ul{
