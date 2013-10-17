@@ -184,6 +184,7 @@ p, li{
 	margin:0;
 	padding:2em;
 	background-color:#A4C777;
+	display:inline-block;
 }
 
 ul{
@@ -192,11 +193,13 @@ ul{
 }
 
 .classification{
-	float:right;
 	background-color:#F8D130;
 	padding:1.5em 3em 1.5em 1.5em;
 	border-radius:10px;
 	border:10px solid #5D4820;
+	margin:0;
+	float:right;
+
 }
 
 @media only screen and (min-width: 34em){
