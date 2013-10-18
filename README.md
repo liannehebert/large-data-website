@@ -45,9 +45,9 @@ The website is targeted towards people who are passionate about wildlife, specif
 - [x] Tasks & priorities
 - [x] Prototype
 - [x] Style exploration
-- [ ] Writing exploration
-- [ ] Component guide
-- [ ] Homepage design
+- [x] Writing exploration
+- [x] Component guide
+- [x] Homepage design
 - [ ] Inside pages
 - [ ] Comments
 - [ ] Categories
