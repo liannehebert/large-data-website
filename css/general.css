@@ -19,7 +19,7 @@ nav{
 	text-align:center;
 }
 
-nav ul{
+nav ul,{
 	font-size:1.5em;
 }
 
@@ -101,7 +101,7 @@ h1{
 	color:#66492E;
 }
 
-h3{
+h3, h2{
 	font-family:"ITC Stone Sans",helvetica,sans-serif;
 	color:#66492E;
 }
@@ -162,7 +162,7 @@ p, li{
 }
 
 .photo-spacer{
-	padding:.5em 3em;
+	padding:1em 3em 0 3em;
 }
 
 .photo-list{
@@ -171,6 +171,8 @@ p, li{
 }
 
 .caption{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#66492E;
 	background-color:#A4C777;
 	margin:0;
 	padding:.5em;
@@ -178,12 +180,15 @@ p, li{
 	font-size:1.5em;
 }
 
+.caption:hover{
+	cursor:pointer;
+}
 
 .info{
 	display:none;
 	list-style-type:none;
 	margin:0;
-	padding:2em;
+	padding:2em 3em;
 	background-color:#A4C777;
 }
 
@@ -192,15 +197,27 @@ ul{
 	margin:0;
 }
 
-.classification{
-	background-color:#F8D130;
-	padding:1.5em 3em 1.5em 1.5em;
-	border-radius:10px;
-	border:10px solid #5D4820;
-	margin:0;
-	float:right;
-
+details{
+	background-color:#A4C777;
 }
+
+dt{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#66492E;
+	font-size:1.1em;
+	padding-top:.5em;
+	font-weight:bold;
+}
+
+dl{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#66492E;
+	font-size:1.1em;
+	padding:0 2em 2em 2em;
+}
+
+/*End of styling for the show/hide information for animal profiles.*/
+
 
 @media only screen and (min-width: 34em){
 	
