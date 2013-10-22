@@ -151,9 +151,20 @@ p, li{
 	color:#66492E;
 }
 
+/*Grid styling for small units*/
 .unit-s-1{
 	width:100%;
 }
+
+.unit-s-1-3{
+	width:33.333%;
+}
+
+.unit-s-2-3{
+	width:66.6667%;
+}
+/*End of grid styling for small units*/
+
 
 
 .photo{
@@ -220,11 +231,54 @@ dl{
 
 .volunteer-photo{
 	max-width:400px;
+	float:right;
 }
+
+.opportunity-box{
+	background-color:#F8D180;
+	padding:2em 3em 2em 3em;
+	border-bottom:medium solid #5F4622;
+	overflow:hidden;
+}
+
+.details{
+	display:block;
+	font-size:1.2em;
+	line-height: 2.1em;
+}
+
+tr{
+	display: table-row;
+	border-bottom: solid 1px gray;
+}
+
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+th{
+	padding-right: 13px;
+	min-width: 160px;
+	text-align:left;
+}
+
+table{
+}
+
+.no-border {
+	border-bottom: none;
+}
+
+/*End of styling for the Eco-volunteering info and photos*/
 
 
 @media only screen and (min-width: 37em){
-	
+
+.unit-m-1{
+	width:100%;
+}
+
 .unit-m-1-3{
 	width:33.333%;
 }
@@ -249,6 +303,10 @@ p{
 
 
 @media only screen and (min-width: 49em){
+
+.unit-l-1{
+	width:100%;
+}
 
 .unit-l-1-3{
 	width:33.333%;
