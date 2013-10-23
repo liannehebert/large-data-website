@@ -232,6 +232,7 @@ dl{
 .volunteer-photo{
 	max-width:400px;
 	float:right;
+	padding-bottom:1em;
 }
 
 .opportunity-box{
@@ -244,12 +245,12 @@ dl{
 .details{
 	display:block;
 	font-size:1.2em;
-	line-height: 2.1em;
+	line-height: 2em;
 }
 
 tr{
 	display: table-row;
-	border-bottom: solid 1px gray;
+	background-color:#FEF0AB;
 }
 
 tbody{
@@ -259,15 +260,39 @@ tbody{
 
 th{
 	padding-right: 13px;
+	padding-left:13px;
 	min-width: 160px;
 	text-align:left;
 }
 
-table{
+td{
+	padding: 0 13px 0 13px;
 }
 
-.no-border {
-	border-bottom: none;
+table{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#66492E;
+	min-width:700px;
+
+}
+
+
+
+.button{
+	cursor:pointer;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#66492E;
+	padding:.5em;
+	font-size:1.34em;
+	background-color:#E99803;
+	border-radius:20px;
+	width:inherit;
+	max-width:230px;
+	margin-top:1em;
+}
+
+.button:hover{
+	background-color:#F3B557;
 }
 
 /*End of styling for the Eco-volunteering info and photos*/
@@ -298,7 +323,11 @@ p{
 .bucket{
 	width:75%;
 }
-	
+
+.volunteer-photo{
+	float:left;
+}
+
 }
 
 
@@ -343,6 +372,20 @@ p{
 	
 }
 
+@media only screen and (min-width: 58em){
+
+table{
+	width:100%;
+}
+
+.details{
+	width:80%;
+}
+
+}
+
+
+
 @media only screen and (min-width: 80em){
 
 .unit-spacer{
@@ -361,8 +404,17 @@ article{
 	width:60%;
 }
 
+
 }
 
+
+@media only screen and (min-width: 96em){
+
+.volunteer-photo{
+	float:right;
+}
+
+}
 
 @media only screen and (min-width: 125em){
 
