@@ -231,13 +231,13 @@ dl{
 
 .volunteer-photo{
 	max-width:400px;
-	float:right;
+	float:left;
 	padding-bottom:1em;
 }
 
 .opportunity-box{
 	background-color:#F8D180;
-	padding:2em 3em 2em 3em;
+	padding:1em .5em 1em .5em;
 	border-bottom:medium solid #5F4622;
 	overflow:hidden;
 }
@@ -245,13 +245,38 @@ dl{
 .details{
 	display:block;
 	font-size:1.2em;
-	line-height: 2em;
+	line-height: 1.3em;
 }
 
 tr{
 	display: table-row;
 	background-color:#FEF0AB;
+	font-size:.8em;
 }
+
+
+.button{
+	cursor:pointer;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#66492E;
+	padding:.5em;
+	font-size:1.34em;
+	background-color:#E99803;
+	border-radius:20px;
+	width:inherit;
+	max-width:230px;
+	margin-top:1em;
+}
+
+.button:hover{
+	background-color:#F3B557;
+}
+
+/*End of styling for the Eco-volunteering info and photos*/
+
+
+@media only screen and (min-width: 23em){
 
 tbody{
 	display: table-row-group;
@@ -272,31 +297,10 @@ td{
 table{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color:#66492E;
-	min-width:700px;
-
+	max-width:500px;
 }
 
-
-
-.button{
-	cursor:pointer;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color:#66492E;
-	padding:.5em;
-	font-size:1.34em;
-	background-color:#E99803;
-	border-radius:20px;
-	width:inherit;
-	max-width:230px;
-	margin-top:1em;
 }
-
-.button:hover{
-	background-color:#F3B557;
-}
-
-/*End of styling for the Eco-volunteering info and photos*/
-
 
 @media only screen and (min-width: 37em){
 
@@ -324,8 +328,8 @@ p{
 	width:75%;
 }
 
-.volunteer-photo{
-	float:left;
+tr{
+	font-size:1em;
 }
 
 }
@@ -357,7 +361,10 @@ p{
 	width:85%;
 }
 
+.opportunity-box{
+	padding:2em 3em 2em 3em;
 
+}
 
 .bucket{
 	width:33%;
@@ -375,7 +382,12 @@ p{
 @media only screen and (min-width: 58em){
 
 table{
-	width:100%;
+	min-width:700px;
+	max-width:701px;
+}
+
+tr{
+	font-size:1em;
 }
 
 .details{
