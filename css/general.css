@@ -12,14 +12,11 @@
 
 
 html{
-	background-color:#FFF6C1;
+	background-color:#FFF5BD;
 }
 
 nav{
 	text-align:center;
-}
-
-nav ul,{
 	font-size:1.5em;
 }
 
@@ -32,7 +29,7 @@ nav ul li:hover > ul {
 }
 	
 nav ul {
-	background: #F8D130;
+	background: #F4B54D;
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0 20px;
 	border-radius: 5px;  
@@ -50,7 +47,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-	background: #E99803;
+	background: #F9D179;
 }
 
 nav ul li:hover a {
@@ -60,12 +57,12 @@ nav ul li:hover a {
 nav ul li a {
 	display: block; 
 	padding: 25px 40px;
-	color: #66492E; 
+	color: #F9D179; 
 	text-decoration: none;
 }
 	
 nav ul ul {
-	background: #E99803; 
+	background: #F4B54D; 
 	border-radius: 10px; 
 	padding: 0;
 	position: absolute; 
@@ -74,7 +71,7 @@ nav ul ul {
 	
 nav ul ul li {
 	float: none; 
-	border-top: 1px solid #825E3C;
+	border-top: 1px solid #66492c;
 	position: relative;
 }
 
@@ -84,7 +81,7 @@ nav ul ul li a {
 }	
 
 nav ul ul li a:hover {
-	background: #F3B557;
+	background: #F9D179;
 }
 
 nav ul ul ul {
@@ -98,17 +95,20 @@ nav ul ul ul {
 h1{
 	font-size:2em;
 	font-family:"ITC Stone Sans",helvetica,sans-serif;
-	color:#66492E;
+	color:#66492C;
 }
 
 h3, h2{
 	font-family:"ITC Stone Sans",helvetica,sans-serif;
-	color:#66492E;
+	color:#66492C;
+}
+
+.searchbar {
+	font-family:"ITC Stone Sans",helvetica,sans-serif;
+	color:#66492C;
+	width:200px;
 }
 /*
-.searchbar {
-	float: right;
-}
 Note to self: floating the searchbar right makes it go into article by default and messes up margins & padding. Putting a clearfix on the nav hides the dropdown.
 */
 article{
@@ -120,7 +120,7 @@ article{
 p, li{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size:1em;
-	color:#66492E;
+	color:#66492C;
 }
 
 .intro{
@@ -137,21 +137,32 @@ p, li{
 
 .bucket{
 	width:100%;
-	margin:0;
+	margin:5% 0 0 0;
 	float:left;
+	max-height:600px;
 }
 
 .unit-spacer{
 	padding:.3em;
+	margin:0 2%;
+	background-color:#A6C672;
+}
+
+.unit-spacer h2:hover{
+	color:#FFF5BD;
 }
 
 .bucket-caption{
 	font-size:1em;
 	margin:0;
-	color:#66492E;
+	color:#66492C;
 }
 
-/*Grid styling for small units*/
+.bucket h2{
+	margin:0;
+}
+
+/*Grid styling for small units:*/
 .unit-s-1{
 	width:100%;
 }
@@ -173,7 +184,7 @@ p, li{
 }
 
 .photo-spacer{
-	margin:1em 0 0 3em;
+	margin:1em 0 0 0;
 }
 
 .photo-list{
@@ -184,7 +195,7 @@ p, li{
 .caption{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color:#66492E;
-	background-color:#A4C777;
+	background-color:#A6C672;
 	margin:0;
 	padding:.5em;
 	height:60px;
@@ -200,7 +211,7 @@ p, li{
 	list-style-type:none;
 	margin:0;
 	padding:2em 3em;
-	background-color:#A4C777;
+	background-color:#A6C672;
 }
 
 ul{
@@ -209,12 +220,12 @@ ul{
 }
 
 details{
-	background-color:#A4C777;
+	background-color:#A6C672;
 }
 
 dt{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color:#66492E;
+	color:#66492C;
 	font-size:1.1em;
 	padding-top:.5em;
 	font-weight:bold;
@@ -222,7 +233,7 @@ dt{
 
 dl{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color:#66492E;
+	color:#66492C;
 	font-size:1.1em;
 	padding:0 2em 2em 2em;
 }
@@ -236,9 +247,9 @@ dl{
 }
 
 .opportunity-box{
-	background-color:#F8D180;
+	background-color:#F9D179;
 	padding:1em .5em 1em .5em;
-	border-bottom:medium solid #5F4622;
+	border-bottom:medium solid #66492C;
 	overflow:hidden;
 }
 
@@ -250,19 +261,34 @@ dl{
 
 tr{
 	display: table-row;
-	background-color:#FEF0AB;
+	background-color:#FFF5BD;
 	font-size:.8em;
 }
 
+
+a:link {
+	text-decoration:none;
+	color:#66492C;
+}
+a:visited {
+	text-decoration:none;
+	color:#66492C;
+}
+a:hover {
+	text-decoration:none;
+}
+a:active {
+	text-decoration:none;
+}
 
 .button{
 	cursor:pointer;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	text-align:center;
-	color:#66492E;
+	color:#66492C;
 	padding:.5em;
 	font-size:1.34em;
-	background-color:#E99803;
+	background-color:#EA9900;
 	border-radius:20px;
 	width:inherit;
 	max-width:230px;
@@ -270,7 +296,7 @@ tr{
 }
 
 .button:hover{
-	background-color:#F3B557;
+	background-color:#F4B45D;
 }
 
 /*End of styling for the Eco-volunteering info and photos*/
@@ -296,11 +322,16 @@ td{
 
 table{
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color:#66492E;
+	color:#66492C;
 	max-width:500px;
 }
 
+.searchbar{
+	margin-left:50%;
 }
+
+}
+
 
 @media only screen and (min-width: 37em){
 
@@ -324,12 +355,21 @@ p{
 	font-size:1.1em;
 }
 
+.photo{
+	margin-left:2em;
+}
+
+
 .bucket{
 	width:75%;
 }
 
 tr{
 	font-size:1em;
+}
+
+.searchbar{
+	margin-left:65%;
 }
 
 }
@@ -363,7 +403,6 @@ p{
 
 .opportunity-box{
 	padding:2em 3em 2em 3em;
-
 }
 
 .bucket{
@@ -376,7 +415,11 @@ p{
 .unit-spacer{
 	padding:.4em;
 }
-	
+
+.searchbar{
+	margin-left:75%;
+}
+
 }
 
 @media only screen and (min-width: 58em){
@@ -404,8 +447,8 @@ tr{
 	padding:.8em;
 }
 
-article{
-	padding: 0 10em;
+.searchbar{
+	margin-left:85%;
 }
 
 }
@@ -416,6 +459,9 @@ article{
 	width:60%;
 }
 
+article{
+	padding: 0 10em;
+}
 
 }
 
@@ -438,5 +484,27 @@ h1{
 	font-size: 1.7em;
 }
 
+}
 
+@media only screen and (min-width: 140em){
+
+.caption{
+	font-size:2em;
+}
+
+.classification{
+	font-size:1.5em;
+}
+
+dl{
+	font-size:1.5em;
+}
+
+.bucket-caption{
+	font-size:1.5em;
+}
+
+.opportunity-box{
+	font-size:1.5em;
+}
 }
