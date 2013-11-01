@@ -22,6 +22,7 @@ html{
 	height: 33px;
 	width:40px;
 	background:url(../img/menu-icon.jpg);
+	margin-right:1em;
 }
 
 nav ul,
@@ -33,9 +34,10 @@ nav li {
 	width: 100%;
 	padding: .5em 0 .5em 2em;
 	margin: 0;
+	position: relative;
 }
 
-nav:hover ul{
+nav:hover > ul{
 	display:block;
 }
 
@@ -47,10 +49,10 @@ nav{
 nav ul ul {
 	display: none;
 }
-
+/*
 nav ul li li{
 	display:none;
-}
+}*/
 
 nav ul li:hover > ul{
 	display:block;
@@ -89,6 +91,7 @@ nav ul ul {
 	padding: 0;
 	position: absolute; 
 	top: 100%;
+	z-index: 1000;
 }
 	
 nav ul ul li {
@@ -98,7 +101,7 @@ nav ul ul li {
 }
 
 nav ul ul li a {
-	padding: 15px 40px;
+	padding: 15px 10px;
 	color: #fff;
 }	
 
@@ -111,7 +114,6 @@ nav ul ul ul {
 	left: 100%; 
 	top:0;
 }
-
 /*End of small screen navigation menu dropdown*/
 
 
@@ -140,6 +142,11 @@ nav ul ul ul {
 
 .skiplinks a:focus{
 	top:0;
+}
+
+.top{
+	text-align:center;
+	padding-top:3em;
 }
 
 a,
@@ -197,13 +204,12 @@ p, li{
 	font-size:1.2em;
 }
 
-
-
 .flex-img{
 	display:block;
 	width:100%;
 }
 
+/*Bucket styling for homepage*/
 .bucket{
 	width:100%;
 	margin:5% 0 0 0;
@@ -233,6 +239,7 @@ p, li{
 	margin:0;
 }
 
+
 /*Grid styling for small units:*/
 .unit-s-1{
 	width:100%;
@@ -248,7 +255,7 @@ p, li{
 /*End of grid styling for small units*/
 
 
-
+/*Styling for content in animal pages*/
 .photo{
 	display:inline-table;
 	max-width:500px;
@@ -309,9 +316,9 @@ dl{
 	font-size:1.1em;
 	padding:0 2em 2em 2em;
 }
-
 /*End of styling for the show/hide information for animal profiles.*/
 
+/*Styling for volunteer page info and photos*/
 .volunteer-photo{
 	max-width:400px;
 	float:left;
@@ -382,14 +389,42 @@ a:active {
 .button:hover{
 	background-color:#F4B45D;
 }
-
 /*End of styling for the Eco-volunteering info and photos*/
 
 
-.top{
-	text-align:center;
-	padding-top:3em;
+/*Recent Discoveries page styling*/
+.discovery-photo{
+	float:left;
+	width:90%;
+	padding:0 0 1em 0;
 }
+
+.hook{
+	font-size:.9em;
+	font-weight:bold;
+}
+
+.credit{
+	font-size:.8em;
+	padding-top:0;
+}
+
+/*Mammals photo-grid styling*/
+
+.photo-grid{
+	width:100%;
+}
+
+.grid-box{
+	width:100%;
+}
+
+.photo-grid-name{
+	margin:-1.5em 0 1em 1em;
+	background-color:#a6c672;
+	
+}
+
 
 @media only screen and (min-width: 20em){
 table{
@@ -407,6 +442,11 @@ tr{
 td{
 	padding-left:5px;
 }
+
+.article{
+	margin-right:2em;
+}
+
 
 }
 
@@ -435,6 +475,14 @@ dl{
 
 .searchbar{
 	margin-left:50%;
+}
+
+.hook{
+	font-size:1.1em;
+}
+
+.credit{
+	font-size:.9em;
 }
 
 }
@@ -485,6 +533,14 @@ dl{
 
 }
 
+@media only screen and (min-width: 45em){
+
+.discovery-photo{
+	width:45%;
+	padding-right:2em;
+}
+
+}
 
 @media only screen and (min-width: 49em){
 
@@ -632,6 +688,10 @@ nav ul ul ul {
 
 @media only screen and (min-width: 58em){
 
+.unit-8{
+	width:80%;
+}
+
 table{
 	min-width:700px;
 	max-width:701px;
@@ -647,7 +707,12 @@ tr{
 
 }
 
+@media only screen and (min-width: 76em){
 
+.discovery-photo{
+	width:40%;
+}
+}
 
 @media only screen and (min-width: 80em){
 
