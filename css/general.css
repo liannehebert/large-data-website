@@ -555,11 +555,26 @@ dl{
 
 }
 
+@media only screen and (min-width: 34em){
+
+.section-link{
+	width:80%;
+}
+
+}
+
+
 @media only screen and (min-width: 45em){
 
 .discovery-photo{
 	width:45%;
 	padding-right:2em;
+}
+
+.section-link{
+	width:49%;
+	margin:0;
+	display:inline-flex;
 }
 
 }
@@ -725,6 +740,14 @@ tr{
 
 .details{
 	width:80%;
+}
+
+}
+
+@media only screen and (min-width: 70em){
+
+.section-link{
+	width:24%;
 }
 
 }
