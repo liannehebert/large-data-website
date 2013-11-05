@@ -411,19 +411,41 @@ a:active {
 
 /*Mammals photo-grid styling*/
 
-.photo-grid{
+.link-grid{
 	width:100%;
+	overflow:hidden;
+}
+
+.photo-row{
+	width:100%;
+	display:inline-block;
+	float:left;
+	padding-bottom:1em;
+}
+
+.section-link{
+	margin:0;
+	
 }
 
 .grid-box{
 	width:100%;
 }
 
-.photo-grid-name{
-	margin:-1.5em 0 1em 1em;
+.link-overlay{
+	position:relative;
+	height:40px;
+	display:block;
+	opacity:.8;
+	padding:.3em 0 0 .5em;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:1.5em;
 	background-color:#a6c672;
-	
+	margin-bottom:-40px;
+	bottom:44px;
+	width:100%;
 }
+
 
 
 @media only screen and (min-width: 20em){
