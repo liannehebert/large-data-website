@@ -448,8 +448,13 @@ a:active {
 
 
 
-.404-monkey{
-	max-height:400px;
+.404-box{
+	width:100%;
+	background-color:#66492c;
+}
+
+.404-img{
+	
 }
 
 @media only screen and (min-width: 20em){
