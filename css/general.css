@@ -454,7 +454,7 @@ a:active {
 }
 
 .404-img{
-	
+	max-width:50px;
 }
 
 @media only screen and (min-width: 20em){
