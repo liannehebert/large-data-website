@@ -87,7 +87,7 @@ nav ul li a {
 
 nav ul ul {
 	background: #F4B54D; 
-	border-radius: 10px; 
+	border-radius: 5px; 
 	padding: 0;
 	position: absolute; 
 	top: 100%;
@@ -96,12 +96,12 @@ nav ul ul {
 	
 nav ul ul li {
 	float: none; 
-	border-top: 1px solid #66492c;
+	border-top: 1px solid #fff5bd;
 	position: relative;
 }
 
 nav ul ul li a {
-	padding: 15px 10px;
+	padding: 8px 8px 8px 0;
 	color: #fff;
 }	
 
@@ -414,6 +414,7 @@ a:active {
 .link-grid{
 	width:100%;
 	overflow:hidden;
+	padding-top:1em;
 }
 
 .photo-row{
@@ -421,6 +422,8 @@ a:active {
 	display:inline-block;
 	float:left;
 	padding-bottom:1em;
+	
+	min-height:44px;
 }
 
 .section-link{
@@ -441,7 +444,7 @@ a:active {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size:1.5em;
 	background-color:#a6c672;
-	margin-bottom:-40px;
+	margin-bottom:-44px;
 	bottom:44px;
 	width:100%;
 }
@@ -455,6 +458,13 @@ a:active {
 .404-img{
 	margin:auto;
 	max-width:800px;
+}
+
+@media only screen and (min-width: 10em){
+
+.searchbar{
+	margin-left:40%;
+}
 }
 
 @media only screen and (min-width: 20em){
@@ -478,6 +488,9 @@ td{
 	margin-right:2em;
 }
 
+.searchbar{
+	margin-left:40%;
+}
 
 }
 
@@ -702,7 +715,7 @@ nav ul li a {
 
 nav ul ul {
 	background: #F4B54D; 
-	border-radius: 10px; 
+	border-radius: 5px; 
 	padding: 0;
 	position: absolute; 
 	top: 100%;
@@ -710,12 +723,13 @@ nav ul ul {
 
 nav ul ul li {
 	float: none; 
-	border-top: 1px solid #66492c;
+	border-top: 1px solid #fff5bd;
 	position: relative;
 }
 
 nav ul ul li a {
-	padding: 25px 30px;
+	width:250px;
+	padding:1em 0 1em 0;
 	color: #fff;
 }	
 
