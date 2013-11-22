@@ -15,6 +15,10 @@ html{
 	background-color:#FFF5BD;
 }
 
+img{
+	border:0;
+}
+
 /*Small screen navigation menu dropdown*/
  #menu-icon {
 	display: inline-block;
@@ -596,7 +600,7 @@ dl{
 .section-link{
 	width:49%;
 	margin:0;
-	display:inline-flex;
+	display:inline-block;
 }
 
 }
