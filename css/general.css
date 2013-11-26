@@ -10,9 +10,8 @@
 	box-sizing: border-box;
 }
 
-
-html{
-	background-color:#FFF5BD;
+body{
+	background-image:url(../img/bg.png);
 }
 
 img{
@@ -174,6 +173,7 @@ h1{
 	font-size:2em;
 	font-family:"ITC Stone Sans",helvetica,sans-serif;
 	color:#66492C;
+	padding-top:1em;
 }
 
 h3, h2{
@@ -279,9 +279,11 @@ p, li{
 	color:#66492E;
 	background-color:#A6C672;
 	margin:0;
+	margin-top:-2em;
 	padding:.5em;
-	height:60px;
+	height:48px;
 	font-size:1.5em;
+	opacity:.85;
 }
 
 .caption:hover{
@@ -332,7 +334,9 @@ dl{
 .opportunity-box{
 	background-color:#F9D179;
 	padding:1em .5em 1em .5em;
+	margin-bottom:1.5em;
 	border-bottom:medium solid #66492C;
+	border-top:medium solid #66492C;
 	overflow:hidden;
 }
 
@@ -391,7 +395,7 @@ a:active {
 }
 
 .button:hover{
-	background-color:#F4B45D;
+	background-color:#fff5bd;
 }
 /*End of styling for the Eco-volunteering info and photos*/
 
@@ -823,6 +827,8 @@ article{
 
 .volunteer-photo{
 	float:right;
+	margin-top:-5em;
+	padding-left:2em;
 }
 
 }
@@ -832,6 +838,7 @@ article{
 dl{
 	padding:2em;
 }
+
 }
 
 @media only screen and (min-width: 125em){
