@@ -24,6 +24,10 @@ body{
 	body{
 		max-width:none;
 	}
+	
+	.caption{
+		opacity:.85;
+	}
 }
 
 img{
@@ -295,7 +299,6 @@ p, li{
 	padding:.5em;
 	height:48px;
 	font-size:1.5em;
-	opacity:.85;
 }
 
 .caption:hover{
